@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Activité Git</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Activité Git</h1>
+
+<h2>Partie 1 : Mise en place</h2>
+
+<h3>Étape 1</h3>
+<p>Ouvrir une invite de commande (cmd)</p>
+
+<h3>Étape 2</h3>
+<p>Taper dans le cmd : <code>git version</code></p>
+<img src="image/Capture0.PNG" alt="git version">
+
+<p>Si la commande affiche une version, Git est déjà installé. Sinon, installer Git :</p>
+
+<a href="installer-git.html" class="btn btn-small">Installer Git</a>
+
+<h3>Étape 3</h3>
+<p>Aller dans un dossier documents : <code>cd Documents</code></p>
+
+<h3>Étape 4</h3>
+<p>Enregistrez-vous sur Git :</p>
+
+<pre>
+git config --global user.name "Prénom Nom"
+git config --global user.email prenom.nom@example.com
+</pre>
+
+<h2>Partie 2 : Manipulation</h2>
+
+<h3>Étape 1</h3>
+<p>Connectez-vous ou créez un compte GitHub</p>
+
+<h3>Étape 2</h3>
+<p>Créer un nouveau dépôt</p>
+<img src="image/Capture.PNG" alt="nouveau dépôt GitHub">
+
+<h3>Étape 3</h3>
+<p>Nommer le répertoire : <strong>Activité-Prénom</strong></p>
+
+<h3>Étape 4</h3>
+<p>Créer un fichier nommé <strong>activiter.md</strong></p>
+<img src="image/Capture 2.PNG" alt="création fichier">
+
+<h3>Étape 5</h3>
+<p>Copier la phrase suivante dans le fichier :<br>
+<code>Je m’appelle</code><br>puis effectuer un commit.</p>
+<img src="image/Capture3.PNG" alt="commit fichier">
+<img src="image/Capture4.PNG" alt="commit message">
+
+<h3>Étape 6</h3>
+<p>Récupérer l'URL de votre dépôt</p>
+<img src="image/Capture5.PNG" alt="URL dépôt">
+
+<h3>Étape 7</h3>
+<p>Cloner votre dépôt :</p>
+<pre>git clone VOTRE_URL</pre>
+
+<h3>Étape 8</h3>
+<p>Modifier activiter.md dans Notepad++ pour ajouter votre prénom</p>
+
+<h3>Étape 9</h3>
+<p>Aller dans votre dossier : <code>cd VOTRE_DOSSIER</code></p>
+<p>Puis vérifier les modifications :</p>
+<pre>git status</pre>
+
+<h3>Étape 10</h3>
+<p>Préparer le fichier au commit :</p>
+<pre>git add activiter.md</pre>
+
+<h3>Étape 11</h3>
+<p>Enregistrer localement avec un commit :</p>
+<pre>git commit -m "DONNER UN NOM AU COMMIT"</pre>
+
+<h3>Étape 12</h3>
+<p>Vérifier :</p>
+<pre>
+git log --oneline
+git show
+</pre>
+
+<h3>Étape 13</h3>
+<p>Envoyer sur GitHub :</p>
+<pre>git push</pre>
+
+<h3>Étape 14</h3>
+<p>Retourner sur GitHub pour vérifier que le commit a bien été effectué</p>
+
+<br><br>
+
+<a href="index.html" class="btn">Retour à la fiche mémo</a>
+
+<footer>
+    Activité Git/GitHub de Allan Thomas Alexis Toni
+</footer>
+
+</body>
+</html>
+
+</body>
+</html>
